@@ -1,0 +1,121 @@
+ @import url('https://fonts.googleapis.com/css?family=Tinos&display=swap');
+
+
+ body{
+    font-family: Tinos,serif;
+    background: linear-gradient(270deg, #312c3a 0%, #cdb1b1 100%);
+ }
+ .dropdown-menu{
+    background-color: rgba(41, 45, 51, 0);
+    font-size: 20px;
+    padding-left: 8px;
+    color: #ffffff;
+ }
+p{
+    color: #ffffff;
+}
+ .nav-link{
+    color: rgb(255, 255, 255);
+ }
+ .navbar-nav .nav-link.active{
+    color: rgb(151, 160, 167);
+ }
+ .navbar-brand img{
+    width: 90px;
+ }
+ .navbar-toggler{
+    background-color: aliceblue;
+ }
+.sidebar{
+    color: #ffffff;
+}
+.card{
+    margin: 1.5em;
+    background-color: #d5bfbf;
+    color: rgb(0, 0, 0);
+}
+.card a{
+    text-decoration: none;
+    color: black;
+
+}
+.card-body .btn{
+    background: linear-gradient(20deg, #86828f 0%, #e1d2d2 100%);
+}
+.strongy2 p{
+    margin-top: 1em;
+    font-size: 38px;
+    text-align: center;
+
+}
+.strongy2 strong{
+    color: rgb(65, 65, 72);
+    text-align: center;
+}
+.txtright{
+    font-size: 20px;
+}
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 350px;
+}
+.carousel-item{
+    padding-top: 100px;
+    
+}
+.call{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+.contacts a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+@media(max-width:675px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+.footer-text p{
+    color: #ffffff;
+    margin: auto auto;
+    padding-top: 1em;
+}
+footer{
+    background: linear-gradient(200deg, #312c3a 0%, #cdb1b1 100%);
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
